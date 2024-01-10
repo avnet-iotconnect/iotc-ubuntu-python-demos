@@ -14,6 +14,10 @@ with open("config.json") as f:
 for key in ["sdk_id", "cpid", "env", "unique_id", "display_name"]:
     if not config[key]:
         raise ValueError(f"{key} in config.json cannot be empty. Please updated the config.json file")
+    
+for cert in [f"pk_{config['display_name']}.pem", f"cert_{config['display_name']}.crt", "root-CA.pem"]:
+    if not os.path.exists(f"certificates/{cert}"):
+        raise Exception(f"Missing cert file: {cert}")
 	
 interval = 5
 directmethodlist={}
