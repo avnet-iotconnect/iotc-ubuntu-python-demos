@@ -1,2 +1,4 @@
 .venv/
-*/certificates/
+*/certificates/cert*
+*/certificates/pk*
+*logs/

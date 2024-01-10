@@ -8,7 +8,8 @@ Here is a list of gateways that have been tested:
 
 ## Step 0: Pre-requisites
 This demo assumes the following:
-* You have an existing IotConnect account (contact our team at info@iotconnect.io to create one.) 
+* You have an existing IotConnect account (contact the support team at info@iotconnect.io to create one.) 
+* You have a github account with access to 
 * You have a gateway, mouse, keyboard, and monitor with a display port cable.
 * The gateway is running Ubuntu. If the device needs to be re-flashed follow [this guide](https://www.dell.com/support/manuals/en-do/dell-edge-gateway-3200/egw-3200-software-users-guide/create-bootable-usb-stick-for-restore?guid=guid-6ec73f04-322f-4795-88fa-dea90eb9e8bb&lang=en-us)
 
@@ -18,6 +19,12 @@ This demo assumes the following:
 * Follow the prompts from Ubuntu to setup the OS and create a user profile. **Make sure to remember your credentials**
 * Once you are on the desktop 
 
+## Step 2: Download the demo repository
+* Open the terminal and run the following command to download and unzip this repostiory:
+
+      wget https://github.com/avnet-iotconnect/iotc-ubuntu-python-demos/archive/refs/heads/main.zip
+      unzip iotc-ubuntu-python-demos-main.zip
+  
 
 ## Step 2: Create a Device Template in IoTConnect
 * Navigate to https://awspoc.iotconnect.io/ and enter your account credentials.

@@ -24,7 +24,7 @@ SdkOptions={
 	"certificate" : { 
 		"SSLKeyPath"  : os.path.abspath(f"certificates/pk_{config['display_name']}.pem"),
 		"SSLCertPath" : os.path.abspath(f"certificates/cert_{config['display_name']}.crt"),
-		"SSLCaPath"   : os.path.abspath(f"certificates/root-ca.pem"),
+		"SSLCaPath"   : os.path.abspath(f"certificates/root-CA.pem"),
 	},
     "offlineStorage":{
         "disabled": False,
