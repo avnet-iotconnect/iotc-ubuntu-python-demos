@@ -1,1 +1,1 @@
-../.venv/bin/python3 basic_demo.py
+../venv/bin/python3 basic_demo.py

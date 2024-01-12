@@ -2,6 +2,6 @@
     "sdk_id": "",
     "cpid": "",
     "env": "",
-    "unique_id": "",
-    "display_name": ""
+    "unique_id": "basic_demo",
+    "display_name": "BasicDemo"
 }
