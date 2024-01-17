@@ -8,7 +8,7 @@ Here is a list of gateways that have been tested:
 
 ## Step 0: Pre-requisites
 This demo assumes the following:
-* You have an existing IoTConnect account (Register for a free account on the [Subscription Page](https://subscription.iotconnect.io/subscribe)) 
+* You have an existing IoTConnect account on AWS (Register for a free account on the [Subscription Page](https://subscription.iotconnect.io/subscribe)) 
 * You have a github account with access to 
 * You have a gateway, mouse, keyboard, and monitor with a display port cable.
 * The gateway is running Ubuntu. If the device needs to be re-flashed follow [this guide](https://www.dell.com/support/manuals/en-do/dell-edge-gateway-3200/egw-3200-software-users-guide/create-bootable-usb-stick-for-restore?guid=guid-6ec73f04-322f-4795-88fa-dea90eb9e8bb&lang=en-us)
